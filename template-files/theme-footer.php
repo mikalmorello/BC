@@ -29,9 +29,9 @@
             </blockquote>
             <span class="pull-right"><a class="btn btn-black">Support BC</a></span>
             <ul class="list-inline list-social">
-              <li><a href=""><img src="media/icons/twitter.svg" height="20" width="20" alt="twitter" /></a></li>
-              <li><a href=""><img src="media/icons/facebook.svg" height="20" width="20" alt="facebook" /></a></li>
-              <li><a href=""><img src="media/icons/google+.svg" height="20" width="20" alt="google +" /></a></li>
+              <li><a href=""><img src="assets/icons/twitter.svg" height="20" width="20" alt="twitter" /></a></li>
+              <li><a href=""><img src="assets/icons/facebook.svg" height="20" width="20" alt="facebook" /></a></li>
+              <li><a href=""><img src="assets/icons/google+.svg" height="20" width="20" alt="google +" /></a></li>
             </ul>
           </div>
         </div>

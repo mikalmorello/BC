@@ -58,12 +58,45 @@
 // NEWS COMPONENTS	
 	
     $(function () {
-        $("#demo3").bootstrapNews({
+        $("#newsdemo").bootstrapNews({
             newsPerPage: 3,
             autoplay: false,
-            
             onToDo: function () {
                 //console.log(this);
             }
         });
     });
+
+
+
+
+// TEXT ONLY BOOTSTRAP CAROUSEL FIX
+    setCarouselHeight('#carousel-example-text');
+
+    function setCarouselHeight(id)
+    {
+        var slideHeight = [];
+        $(id+' .item').each(function()
+        {
+            // add all slide heights to an array
+            slideHeight.push($(this).height());
+        });
+
+        // find the tallest item
+        max = Math.max.apply(null, slideHeight);
+
+        // set the slide's height
+        $(id+' .carousel-content').each(function()
+        {
+            $(this).css('height',max+'px');
+        });
+    }
+
+// PAUSE ALL CAROUSELS
+  $(function () {
+	  $('.carousel').carousel({
+		  pause: true,
+		  interval: false,
+	  });
+	});
+	

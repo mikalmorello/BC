@@ -6,9 +6,6 @@
 * Free to use and abuse under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 */
-
-
-
 if (typeof Object.create !== "function") { 
 Object.create = function (e) { 
 function t() { } t.prototype = e; return new t 
@@ -44,10 +41,10 @@ e(t).show()
 }); if (n.$elem.find(n.newsTagName).length < n.options.newsPerPage) { 
 n.options.newsPerPage = n.$elem.find(n.newsTagName).length 
 } var r = 0; e.map(n.$elem.find(n.newsTagName), function (t, i) { if (i < n.options.newsPerPage) {
-	 r = parseInt(r) + parseInt(e(t).height()) 
+	 r = parseInt(r) + parseInt(e(t).height()) + 10 
 	 } 
 	 });
-	  e(n.elem).css({ "overflow-y": "hidden", height: "300px" //"r"
+	  e(n.elem).css({ "overflow-y": "hidden", height: "400px"//"r "
 	  }); 
 	  e(t).resize(function () { if (n.resizeTimer !== null) { clearTimeout(n.resizeTimer) } n.resizeTimer = setTimeout(function () { n.prepareLayout() }, 200) }) }, findPanelObject: function () { var e = this.$elem; while (e.parent() !== r) { e = e.parent(); if (e.parent().hasClass("panel")) { return e.parent() } 
 	  } return r 
@@ -69,22 +66,4 @@ n.options.newsPerPage = n.$elem.find(n.newsTagName).length
 	  } if (t.options.autoplay) { 
 	  t.isHovered = e; t.animate() 
 	  } 
-	  }, animate: function () { var e = this; e.timer = setTimeout(function () { if (!e.options.pauseOnHover) { e.isHovered = false } if (!e.isHovered) { if (e.options.direction === "up") { e.onNext() 
-	  } else { e.onPrev() 
-	  } 
-	  } }, e.options.newsTickerInterval) 
-	  }, onPrev: function () { var t = this; if (t.animationStarted) { return false } t.animationStarted = true; var n = "<" + t.newsTagName + ' style="display:none;" class="' + t.newsClassName + '">' + e(t.$elem).find(t.newsTagName).last().html() + "</" + t.newsTagName + ">"; 
-	  e(t.$elem).prepend(n); 
-	  e(t.$elem).find(t.newsTagName).first().slideDown(t.options.animationSpeed, function () { 
-	  e(t.$elem).find(t.newsTagName).last().remove() 
-	  }); 
-	  e(t.$elem).find(t.newsTagName + ":nth-child(" + parseInt(t.options.newsPerPage + 1) + ")").slideUp(t.options.animationSpeed, function () {
-	  t.animationStarted = false; t.onReset(t.isHovered) 
-	  }); 
-	  e(t.elem).find("." + t.newsClassName).on("mouseenter", function () { 
-	  t.onReset(true) 
-	  }); 
-	  e(t.elem).find("." + t.newsClassName).on("mouseout", function () { 
-	  t.onReset(false) 
-	  }) }, onNext: function () { 
-	  var t = this; if (t.animationStarted) { return false } t.animationStarted = true; var n = "<" + t.newsTagName + ' style="display:none;" class=' + t.newsClassName + ">" + e(t.$elem).find(t.newsTagName).first().html() + "</" + t.newsTagName + ">"; e(t.$elem).append(n); e(t.$elem).find(t.newsTagName).first().slideUp(t.options.animationSpeed, function () { e(this).remove() }); e(t.$elem).find(t.newsTagName + ":nth-child(" + parseInt(t.options.newsPerPage + 1) + ")").slideDown(t.options.animationSpeed, function () { t.animationStarted = false; t.onReset(t.isHovered) }); e(t.elem).find("." + t.newsClassName).on("mouseenter", function () { t.onReset(true) }); e(t.elem).find("." + t.newsClassName).on("mouseout", function () { t.onReset(false) }) } }; e.fn.bootstrapNews = function (e) { return this.each(function () { var t = Object.create(i); t.init(e, this) }) }; e.fn.bootstrapNews.options = { newsPerPage: 4, navigation: true, autoplay: true, direction: "up", animationSpeed: "normal", newsTickerInterval: 4e3, pauseOnHover: true, onStop: null, onPause: null, onReset: null, onPrev: null, onNext: null, onToDo: null} })(jQuery, window, document)
+	  }, animate: function () { var e = this; e.timer = setTimeout(function () { if (!e.options.pauseOnHover) { e.isHovered = false } if (!e.isHovered) { if (e.options.direction === "up") { e.onNext() } else { e.onPrev() } } }, e.options.newsTickerInterval) }, onPrev: function () { var t = this; if (t.animationStarted) { return false } t.animationStarted = true; var n = "<" + t.newsTagName + ' style="display:none;" class="' + t.newsClassName + '">' + e(t.$elem).find(t.newsTagName).last().html() + "</" + t.newsTagName + ">"; e(t.$elem).prepend(n); e(t.$elem).find(t.newsTagName).first().slideDown(t.options.animationSpeed, function () { e(t.$elem).find(t.newsTagName).last().remove() }); e(t.$elem).find(t.newsTagName + ":nth-child(" + parseInt(t.options.newsPerPage + 1) + ")").slideUp(t.options.animationSpeed, function () { t.animationStarted = false; t.onReset(t.isHovered) }); e(t.elem).find("." + t.newsClassName).on("mouseenter", function () { t.onReset(true) }); e(t.elem).find("." + t.newsClassName).on("mouseout", function () { t.onReset(false) }) }, onNext: function () { var t = this; if (t.animationStarted) { return false } t.animationStarted = true; var n = "<" + t.newsTagName + ' style="display:none;" class=' + t.newsClassName + ">" + e(t.$elem).find(t.newsTagName).first().html() + "</" + t.newsTagName + ">"; e(t.$elem).append(n); e(t.$elem).find(t.newsTagName).first().slideUp(t.options.animationSpeed, function () { e(this).remove() }); e(t.$elem).find(t.newsTagName + ":nth-child(" + parseInt(t.options.newsPerPage + 1) + ")").slideDown(t.options.animationSpeed, function () { t.animationStarted = false; t.onReset(t.isHovered) }); e(t.elem).find("." + t.newsClassName).on("mouseenter", function () { t.onReset(true) }); e(t.elem).find("." + t.newsClassName).on("mouseout", function () { t.onReset(false) }) } }; e.fn.bootstrapNews = function (e) { return this.each(function () { var t = Object.create(i); t.init(e, this) }) }; e.fn.bootstrapNews.options = { newsPerPage: 4, navigation: true, autoplay: true, direction: "up", animationSpeed: "normal", newsTickerInterval: 4e3, pauseOnHover: true, onStop: null, onPause: null, onReset: null, onPrev: null, onNext: null, onToDo: null} })(jQuery, window, document)
