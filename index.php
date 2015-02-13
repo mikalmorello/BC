@@ -232,7 +232,23 @@
                 </div>
                 <div class="row content">
                   <div class="col-lg-12">
-                    xxx
+                    <h3>Sections available</h3>
+                    <ul>
+                      <li>Global Banner</li>
+                      <li>Global Menu</li>
+                      <li>Global Search</li>
+                      <li>Primary Navigation</li>
+                      <li>Highlight</li>
+                      <li>Main Top</li>
+                      <li>Main</li>
+                      <li>Main Bottom</li>
+                      <li>Footer</li>
+                    </ul>
+                    <h3>DYNAMIC PAGE BUILDER - EXAMPLES</h3>
+                    <ul>
+                      <li><a href="template-site-load.php?section1=theme-global&section2=theme-global-search&section3=theme-global-menu&section4=theme-primary-navigation&section5=theme-highlight&section6=theme-main-top&section7=theme-main&section8=theme-main-bottom&section9=theme-footer">BASE TEMPLATE</a></li>
+                      <li><a href="template-site-load-functions.php?section1=theme-global&section2=theme-global-search&section3=theme-global-menu&section4=theme-primary-navigation&section5=theme-highlight&section7=theme-main-home&section8=theme-main-bottom&section9=theme-footer">HOME TEMPLATE</a></li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -277,7 +293,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="">
+                    <a href="template-component-load.php?template=theme-component-expand">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Expand / Collapse</h4>
