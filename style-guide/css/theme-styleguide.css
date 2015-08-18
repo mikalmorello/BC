@@ -14,6 +14,11 @@ a {
 	color:#111;
 }
 
+img {
+	max-width: 100%;
+	width: 100%;
+}
+
 .nav > li > a:focus, .nav > li > a:hover {
     background-color: #111;
     text-decoration: none;
@@ -210,6 +215,52 @@ a {
     word-wrap: break-word;
 }
 
+
+/* Template Examples */
+
+.template-sections {
+	margin: 0 auto;
+	position: relative;
+	width: 50%;
+}
+
+.template-example-global, .template-example-primary-navigation, .template-example-highlight, .template-example-main-top, .template-example-main, .template-example-main-bottom, .template-example-footer {
+	height: auto;
+	line-height: 0;
+	margin: 0;
+	opacity:.6;
+	padding: 0;
+}
+
+.template-example-global:hover, .template-example-primary-navigation:hover, .template-example-highlight:hover, .template-example-main-top:hover, .template-example-main:hover, .template-example-main-bottom:hover, .template-example-footer:hover {
+	border: 3px solid #F30;
+	opacity: .9;
+}
+
+.template-example-global:hover img, .template-example-primary-navigation:hover img, .template-example-highlight:hover img, .template-example-main-top:hover img, .template-example-main:hover img, .template-example-main-bottom:hover img, .template-example-footer:hover img {
+}
+
+.template-example-global {
+	
+}
+
+.template-example-primary-navigation {
+}
+
+.template-example-highlight {
+}
+
+.template-example-main-top {
+}
+
+.template-example-main {
+}
+
+.template-example-main-bottom {
+}
+
+.template-example-footer {
+}
 /* Sidebar Styles */
 
 .sidebar-nav {

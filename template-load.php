@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include( 'template-files/theme-head.php' ); ?>
+<?php include( 'template-files/theme-base-head.php' ); ?>
 
 <body>
   <div class="container-fluid">
-    <div class="row">
+  <div class="row
+<?php
+foreach($_GET as $name => $value) {
+   $name = $value; 
+   if ($name == 'theme-section-primary-navigation-offcanvas') {
+	 echo " row-offcanvas row-offcanvas-right";
+   }
+}
+
+?>  
+">
+
   <a name="top"></a>
   <a class="sr-only" href="#content">Skip to main content</a> 
   
@@ -19,7 +30,7 @@ foreach($_GET as $name => $value) {
 ?>
 <!-- SECTIONS END-->
 
-<?php include( 'template-files/theme-javascript.php' ); ?>
+<?php include( 'template-files/theme-base-javascript.php' ); ?>
 
 <!-- FUNCTIONS -->
 

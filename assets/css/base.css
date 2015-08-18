@@ -28,6 +28,24 @@
 	  width: 100%;
   }
   
+  .pull-top {
+	  margin-top: -30px;
+	  position: relative;
+  }
+  
+  .background-grey {
+	  background: #e2e3e5;
+  }
+  
+  .no-padding {
+	  padding: 0;
+  }
+  
+  section {
+	  padding-bottom: 45px; 
+	  padding-top: 45px; 
+  }
+  
 
 /* GLOBAL */
   .global {
@@ -272,7 +290,20 @@
 	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
   }
   
+  .highlight p {
+	  color: #fff;
+  }
   
+  .highlight h2 {
+	  font-size: 4em;
+  }
+  
+  .highlight h2 sub {
+	  display: block;
+	  font-size: .2em;
+	  padding-top: .6em;
+	  text-align: center; 
+  }
   
   /* HIGHLIGHT VIDEO EXAMPLE */
   .highlight-video {
@@ -280,16 +311,9 @@
   }
   
   .highlight-video h2 {
-	  font-size: 4em;
 	  margin: 0 auto;
   }
   
-  .highlight-video h2 sub {
-	  display: block;
-	  font-size: .2em;
-	  padding-top: .6em;
-	  text-align: center; 
-  }
   
   .highlight-video .glyphicon {
 	  font-size: 2.5em;
@@ -304,6 +328,8 @@
   .highlight-video a {
 	  color: #fff;
   }
+  
+  /* HIGHLIGHT VIDEO EXAMPLE */
 
 /* MAIN TOP */
 	.main-top {
@@ -341,6 +367,10 @@
   
   .main-bottom a {
 	  color: #111;
+  }
+  
+  .main-bottom hr {
+	  margin-top: 0;
   }
   
 /* FOOTER*/
@@ -634,6 +664,10 @@
 	 top: 15px;
  }
  
+ .section-expand h2 {
+	 margin-bottom: 0;
+ }
+ 
 /* SITE SECTION - NEWS */
  .section-news {
 	 padding: 25px 0;
@@ -677,14 +711,25 @@
  }
  
  
- /* SITE SECTION - DYNAMIC */ 
+ /* SITE SECTION - DYNAMIC GRID*/ 
  
+ .section-dynamic-grid {
+	 background: #f2f2f4;
+	 color: #fff;
+ }
+ 
+ 
+ /* SITE SECTION - AWARDS */ 
+   .awards-section h3 {
+	   font-weight: 200;
+   }
  
  
  /* BACKGROUND OPTIONS*/ 
   .jesuit-background {
 	  background: url("../template-images/jesuit-bg.svg") no-repeat #eee;
 	  background-position: -130px 50%; 
+	  padding: 30px;
  }
 
 
@@ -765,6 +810,22 @@
   
   
 /* IMAGE OVERLAY */
+   .image { 
+	 position: relative; 
+	 width: 100%; /* for IE 6 */
+  }
+  
+   .image-text {
+	 color: #fff; 
+	 position: absolute; 
+	 top: 0; 
+	 width: 100%; 
+  }
+  
+	.image-text span { 
+  }
+  
+/* NEWS IMAGE OVERLAY */
   .news-image {
 	display:inline-block !important;
 	position:relative !important; 

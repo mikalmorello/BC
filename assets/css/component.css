@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* SIDEBAR NAVIGATION */
+
+  .sidebar-navigation-title {
+	  border-bottom: 1px solid #eee;
+	  font-size: 1.3em;
+	  font-weight: 600;
+	  margin-bottom: 1em;
+	  padding-bottom: 1em;
+	  text-transform: uppercase;
+  }
+  
+  .sidebar-navigation-links {
+	  font-size: .9em;
+	  line-height: 2em;
+	  list-style: outside none none;
+	  padding-left: 1em;
+	  text-transform: uppercase;
+  }
+  
+  
+  
+  .sidebar-navigation-links a{
+  	color: #4d4d4f;
+  }
+  
+/* INFOGRAPHIC */
+   .infographic {
+	   margin-bottom: 45px;
+   }
+   
+   .infographic p{
+	  font-size: .9em;
+   }
+  
+  .infographic h3 {
+	  background: #111;
+	  color: #fff;
+	  font-size: 1em;
+	  margin: 0;
+	  padding: 1em;
+	  text-align: center;
+	  text-transform: uppercase;
+  }
+  
+  .infographic.pull-top {
+	  margin-top: -3em;
+  }
+  
+   .infographic .image-text {
+	   text-align: center;
+   }
+  
+  .infographic .image-text span {
+	  display: block;
+	  font-size: 6em;
+	  font-family: Georgia, "Times New Roman", Times, serif;
+	  line-height: 1.1em;
+  }
+  
+  

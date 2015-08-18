@@ -15,7 +15,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="assets/css/theme-styleguide.css" rel="stylesheet">
+    <link href="style-guide/css/theme-styleguide.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -143,7 +143,7 @@
                 </div>
                 <div class="row content">
                   <div class="col-lg-12">
-                    <a href="template-home.php">
+                    <a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation-offcanvas&section5=theme-section-highlight&section7=theme-section-main-home&section8=theme-section-main-bottom&section9=theme-section-footer">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Homepage</h4>
@@ -153,17 +153,17 @@
                         </div>
                       </div>
                     </a>
-                    <a href="">
+                    <a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation&section5=theme-section-highlight&section6=theme-section-main-top&section7=theme-section-main&section8=theme-section-main-bottom&section9=theme-section-footer">
                       <div class="template-box">
                         <div class="template-header">
-                          <h4>Homepage</h4>
+                          <h4>Template</h4>
                         </div>
                         <div class="template-body">
                          <img src="style-guide/images/template-landing-page.svg" />
                         </div>
                       </div>
                     </a>
-                    <a href="template-offcanvas.php">
+                    <a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation-offcanvas&section5=theme-section-highlight&section6=theme-section-main-top&section7=theme-section-main&section8=theme-section-main-bottom&section9=theme-section-footer">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Mobile Off-Canvas Navigation</h4>
@@ -173,7 +173,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="template-background-video.php">
+                    <a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation&section5=theme-section-highlight-background-video&section6=theme-section-main-top&section7=theme-section-main&section8=theme-section-main-bottom&section9=theme-section-footer">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>HTML5 Video Background</h4>
@@ -183,7 +183,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="template-background-carousel.php">
+                    <a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation&section5=theme-section-highlight-background-carousel&section6=theme-section-main-top&section7=theme-section-main&section8=theme-section-main-bottom&section9=theme-section-footer">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Carousel Background</h4>
@@ -193,10 +193,20 @@
                         </div>
                       </div>
                     </a>
-                    <a href="template-alert.php">
+                    <a href="template-load.php?section1=theme-component-alert&section2=theme-section-global&section3=theme-section-global-search&section4=theme-section-global-menu&section5=theme-section-primary-navigation&section6=theme-section-highlight&section7=theme-section-main-top&section8=theme-section-main&section9=theme-section-main-bottom&section10=theme-section-footer">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Alert</h4>
+                        </div>
+                        <div class="template-body">
+                          <img src="style-guide/images/template-landing-page.svg" />
+                        </div>
+                      </div>
+                    </a>
+                    <a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation-offcanvas&section5=theme-section-highlight-academics&section7=theme-section-main-academics&section8=theme-section-main-bottom&section9=theme-section-footer">
+                      <div class="template-box">
+                        <div class="template-header">
+                          <h4>Academics</h4>
                         </div>
                         <div class="template-body">
                           <img src="style-guide/images/template-landing-page.svg" />
@@ -231,7 +241,7 @@
                   </div>
                 </div>
                 <div class="row content">
-                  <div class="col-lg-12">
+                  <div class="col-xs-12">
                     <h3>Sections available</h3>
                     <ul>
                       <li>Global Banner</li>
@@ -244,10 +254,21 @@
                       <li>Main Bottom</li>
                       <li>Footer</li>
                     </ul>
+                    <div class="template-sections">
+                      <div class="template-example-global"><img src="style-guide/images/example-global.png" /><span></span></div>
+                      <div class=""></div>
+                      <div class=""></div>
+                      <div class="template-example-primary-navigation"><img src="style-guide/images/example-primary-navigation.png" /><span></span></div>
+                      <div class="template-example-highlight"><img src="style-guide/images/example-highlight.png" /><span></span></div>
+                      <div class="template-example-main-top"><img src="style-guide/images/example-main-top.png" /><span></span></div>
+                      <div class="template-example-main"><img src="style-guide/images/example-main.png" /><span></span></div>
+                      <div class="template-example-main-bottom"><img src="style-guide/images/example-main-bottom.png" /><span></span></div>
+                      <div class="template-example-footer"><img src="style-guide/images/example-footer.png" /><span></span></div>
+                    </div>
                     <h3>DYNAMIC PAGE BUILDER - EXAMPLES</h3>
                     <ul>
-                      <li><a href="template-site-load.php?section1=theme-global&section2=theme-global-search&section3=theme-global-menu&section4=theme-primary-navigation&section5=theme-highlight&section6=theme-main-top&section7=theme-main&section8=theme-main-bottom&section9=theme-footer">BASE TEMPLATE</a></li>
-                      <li><a href="template-site-load-functions.php?section1=theme-global&section2=theme-global-search&section3=theme-global-menu&section4=theme-primary-navigation&section5=theme-highlight&section7=theme-main-home&section8=theme-main-bottom&section9=theme-footer">HOME TEMPLATE</a></li>
+                      <li><a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation&section5=theme-section-highlight&section6=theme-section-main-top&section7=theme-section-main&section8=theme-section-main-bottom&section9=theme-section-footer">BASE TEMPLATE</a></li>
+                      <li><a href="template-load.php?section1=theme-section-global&section2=theme-section-global-search&section3=theme-section-global-menu&section4=theme-section-primary-navigation&section5=theme-section-highlight&section7=theme-section-main-home&section8=theme-section-main-bottom&section9=theme-section-footer">HOME TEMPLATE</a></li>
                     </ul>
                   </div>
                 </div>
@@ -263,7 +284,7 @@
                 </div>
                 <div class="row content">
                   <div class="col-lg-12">
-                    <a href="template-component-load.php?template=theme-component-alert">
+                    <a href="template-load.php?template=theme-component-alert">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Alert</h4>
@@ -273,7 +294,7 @@
                         </div>
                       </div>
                     </a>
-                   <a href="template-component-load.php?template=theme-component-carousel">
+                   <a href="template-load.php?template=theme-component-carousel">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Carousel</h4>
@@ -293,7 +314,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="template-component-load.php?template=theme-component-expand">
+                    <a href="template-load.php?template=theme-component-expand">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Expand / Collapse</h4>
@@ -313,7 +334,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="template-component-load.php?template=theme-component-news">
+                    <a href="template-load.php?template=theme-component-news">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>News</h4>
@@ -327,6 +348,16 @@
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Video</h4>
+                        </div>
+                        <div class="template-body">
+                          <img src="style-guide/images/component-video.svg" />
+                        </div>
+                      </div>
+                    </a>
+                    <a href="template-load.php?template=theme-component-dynamic-grid">
+                      <div class="template-box">
+                        <div class="template-header">
+                          <h4>Dynamic Grid</h4>
                         </div>
                         <div class="template-body">
                           <img src="style-guide/images/component-video.svg" />
@@ -347,23 +378,24 @@
                  <div class="row content">
                    <div class="col-lg-12">
                     <h3><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Base</h3>
-                    <p>Base CSS files which provide the overall design and layout for the site</p>
+                    <p>Base CSS files which provide the overall design and defaults styles, usually for single element selectors</p>
                     <ul class="list-inline">
                       <li><a href="assets/css/base.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">base.css</span></a></li>
-                      <li><a href="assets/css/base.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">base.css</span></a></li>
-                      <li><a href="assets/css/base.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">base.css</span></a></li>
-                      <li><a href="assets/css/base.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">base.css</span></a></li>
-                      <li><a href="assets/css/base.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">base.css</span></a></li>
+                    </ul>
+                    <h3><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Layout</h3>
+                    <p>Divides the page into sections, acts as containers for components</p>
+                    <ul class="list-inline">
+                      <li><a href="assets/css/layout.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">layout.css</span></a></li>
                     </ul>
                     <h3><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Components</h3>
                     <p>Component specific CSS files for component variations</p>
                     <ul class="list-inline">
-                      <li><a href=""><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">component.css</span></a></li>
+                      <li><a href="assets/css/components.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">component.css</span></a></li>
                     </ul>
                     <h3><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Themes</h3>
                     <p>Theme specific CSS files for various looks and feel.</p>
                     <ul class="list-inline">
-                      <li><a href=""><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">theme.css</span></a></li>
+                      <li><a href="assets/css/theme.css"><span class="glyphicon glyphicon-file" aria-hidden="true"></span><span class="glyphicon-text" aria-hidden="true">theme.css</span></a></li>
                     </ul>
                     <h3><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Frameworks</h3>
                     <p>The Boostrap Framework provides the underlying CSS structure of the site</p>

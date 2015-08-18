@@ -10,9 +10,14 @@
 
   <title>Template</title>
 
-  <!-- CSS -->
+  <!-- FRAMEWORK CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <!-- COMPONENT CSS -->
+  <link rel="stylesheet" href="assets/css/component-mix-it-up.css">
+  <!--SITE CSS -->
   <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/component.css">
+  
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
