@@ -19,12 +19,12 @@
           <br />
         </div>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Admissions</a></li>
-          <li><a href="#">Academics</a></li>
-          <li><a href="#">Research</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Campus Life</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
         </ul>
         <div class="visible-xs">
           <hr />

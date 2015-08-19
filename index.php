@@ -229,7 +229,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href="template-load.php?section4=theme-section-primary-navigation-offcanvas-priorityplus&section5=theme-section-highlight-application&section6=theme-section-main-top&section7=theme-section-main-media-list&section9=theme-section-footer-simple">
+                    <a href="template-load.php?section4=theme-section-primary-navigation-offcanvas-priority&section5=theme-section-highlight-application&section7=theme-section-main-card-list&section9=theme-section-footer-simple#">
                       <div class="template-box">
                         <div class="template-header">
                           <h4>Facewall</h4>

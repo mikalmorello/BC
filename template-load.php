@@ -8,7 +8,7 @@
 <?php
 foreach($_GET as $name => $value) {
    $name = $value; 
-   if ($name == 'theme-section-primary-navigation-offcanvas') {
+   if (($name == 'theme-section-primary-navigation-offcanvas') || ($name == 'theme-section-primary-navigation-offcanvas-priority')) {
 	 echo " row-offcanvas row-offcanvas-right";
    }
 }

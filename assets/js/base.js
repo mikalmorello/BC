@@ -150,4 +150,4 @@ $(function(){
 
 
 
-// MIX IT UP DYNAMIC GRID COMPONENT - NORMAL WIDTH - mixitup.kunkalabs.com/
+
