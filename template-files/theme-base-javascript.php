@@ -4,6 +4,7 @@
    <!-- COMPONENT JAVASCRIPT --> 
     <script src="assets/js/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
     <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script src="assets/js/page-transition.js"></script>
   <!-- BASE JAVASCRIPT -->
     <script src="assets/js/base.js"></script>
         

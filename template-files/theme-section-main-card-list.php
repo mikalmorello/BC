@@ -1,4 +1,4 @@
-  
+<div id="holder">  
   <!-- SECTION -->
   <main id="main" role="main" class="main">
     <div class="container">
@@ -27,3 +27,4 @@
     </div>
   </main>
   <!-- SECTION END -->
+</div>
