@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>Boston College - Style Guide</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -38,10 +38,11 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav nav" role="tablist" id="myTab">
                 <li role="presentation" class="active sidebar-brand"><a href="#overview" aria-controls="home" role="tab" data-toggle="tab"><img src="assets/template-images/main-branding-stacked-desktop.svg" /></a></li>
-                <li role="presentation"><a href="#templates" aria-controls="profile" role="tab" data-toggle="tab">Templates</a></li>
                 <li role="presentation"><a href="#themes" aria-controls="settings" role="tab" data-toggle="tab">Themes</a></li>
+                <li role="presentation"><a href="#templates" aria-controls="profile" role="tab" data-toggle="tab">Templates</a></li>
                 <li role="presentation"><a href="#sections" aria-controls="messages" role="tab" data-toggle="tab">Sections</a></li>
                 <li role="presentation"><a href="#components" aria-controls="messages" role="tab" data-toggle="tab">Components</a></li>
+                <li role="presentation"><a href="#elements" aria-controls="messages" role="tab" data-toggle="tab">Elements</a></li>
                 <li role="presentation"><a href="#css" aria-controls="settings" role="tab" data-toggle="tab">CSS</a></li>
                 <li role="presentation"><a href="#js" aria-controls="settings" role="tab" data-toggle="tab">JS</a></li>
             </ul>
@@ -133,6 +134,21 @@
                 <!-- HOME CONTENT SECTION END -->
               </div>
               <!-- SECTION -->
+              <div role="tabpanel" class="tab-pane fade" id="themes">
+                <div class="row introduction">
+                  <div class="col-lg-12">
+                    <h1>Themes</h1>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta placerat velit id blandit. Maecenas hendrerit accumsan odio, sit amet laoreet ante consequat quis. Sed pharetra lorem sit amet nulla semper, efficitur dignissim tortor dapibus. Praesent a molestie odio.</p>
+                    </p>
+                  </div>
+                </div>
+                <div class="row content">
+                  <div class="col-lg-12">
+                    xxx
+                  </div>
+                </div>
+              </div>
+              <!-- SECTION -->
               <div role="tabpanel" class="tab-pane fade" id="templates">
                 <div class="row introduction">
                   <div class="col-lg-12">
@@ -213,21 +229,16 @@
                         </div>
                       </div>
                     </a>
-                  </div>
-                </div>
-              </div>
-              <!-- SECTION -->
-              <div role="tabpanel" class="tab-pane fade" id="themes">
-                <div class="row introduction">
-                  <div class="col-lg-12">
-                    <h1>Themes</h1>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta placerat velit id blandit. Maecenas hendrerit accumsan odio, sit amet laoreet ante consequat quis. Sed pharetra lorem sit amet nulla semper, efficitur dignissim tortor dapibus. Praesent a molestie odio.</p>
-                    </p>
-                  </div>
-                </div>
-                <div class="row content">
-                  <div class="col-lg-12">
-                    xxx
+                    <a href="template-load.php?section4=theme-section-primary-navigation-offcanvas-priorityplus&section5=theme-section-highlight-application&section6=theme-section-main-top&section7=theme-section-main-media-list&section9=theme-section-footer-simple">
+                      <div class="template-box">
+                        <div class="template-header">
+                          <h4>Facewall</h4>
+                        </div>
+                        <div class="template-body">
+                          <img src="style-guide/images/template-landing-page.svg" />
+                        </div>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -366,6 +377,9 @@
                     </a>
                   </div>
                 </div>
+              </div>
+              <!-- SECTION -->
+              <div role="tabpanel" class="tab-pane fade" id="elements">
               </div>
               <!-- SECTION -->
               <div role="tabpanel" class="tab-pane fade" id="css">

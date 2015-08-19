@@ -305,6 +305,19 @@
 	  text-align: center; 
   }
   
+  /* HIGHLIGHT INTRO  */
+  .highlight .intro {
+	   padding-top: 90px;
+  }
+  
+  .highlight .intro h2 {
+	  margin-bottom: 20px;
+  }
+  
+  .highlight .intro p {
+	  max-width: 750px;
+  }
+  
   /* HIGHLIGHT VIDEO EXAMPLE */
   .highlight-video {
 	  padding-top: 30px;
@@ -414,7 +427,7 @@
 	   float: none; 
 	   margin: 0 auto; 
 	   position: relative; 
-	   text-align: center; 
+	   /*text-align: center;*/
 	   display: inline-block;
    }
   
@@ -425,6 +438,13 @@
 	  width: 115px;
 	  border-left: 20px solid #efefef;
 	  border-right: 20px solid #efefef;
+  }
+  
+    .footer-crest-left {
+	  height: 75px;
+	  margin-top: -25px;
+	  position:  relative;
+	  width: 115px;
   }
   
   .footer-wordmark {
@@ -1001,7 +1021,14 @@
 	  background: #e2e3e5;
   }
 
+ /* MEDIA LIST COMPONENT */
+ .media-list {
+ }
  
+ .media-element {
+
+	
+ }
   
 /* MEDIA QUERIES */
 
