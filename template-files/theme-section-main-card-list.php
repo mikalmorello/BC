@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row header-bar auto-margin">
         <div class="col-xs-4">
-          <a><span class="glyphicon glyphicon-plus-sign " aria-hidden="true"></span></a>
+          <a><span class="glyphicon glyphicon-plus-sign " aria-hidden="true"></a>
         </div>
         <div class="col-xs-4 text-center">
            <h3 class="no-margin">SECTION HEADING</h3>

@@ -13,7 +13,7 @@ $(document).ready(function() {
 		window.setTimeout(function() {
 		    // Redirects to new destination
 				window.location = newLocation;
-		}, 250);
+		}, 150);
 	});
 
 });

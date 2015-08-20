@@ -55,6 +55,7 @@
 	  margin-right: auto;
   }
   
+  
 
 /* GLOBAL */
   .global {
@@ -1215,10 +1216,7 @@
 	 margin-bottom: 15px;
  }
  
- /*.card-action {
-	 padding: 15px 0;
-	 border-bottom: 2px solid #eee;
- }*/
+
 
 
  /* CARD DETAIL COMPONENT */
@@ -1233,6 +1231,109 @@
 	 margin: -250px auto 45px auto;
  }
  
+ .card-detail .card-title{
+	 font-size: 1em;
+ }
+ 
+ .card-detail .card-subtitle {
+	 font-size: 15px;
+	 letter-spacing: 2px;
+	 margin-top: 15px;
+ }
+ 
+ .card-detail .card-description {
+ 	   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	   font-size: 1.2em;
+	   padding: 1.154em;
+	   text-align: center;
+	   border-style: solid;
+	   line-height: 1.5em;
+	   margin: 1.25em auto;
+	   max-width: 650px;
+	   border: none;
+ }
+ 
+ .card-detail .card-description:before{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    left: 45%;
+	margin-top: -25px;
+    border-top: 1px solid #eee;
+ }
+ 
+  .card-detail .card-action {
+	 font-size: 2em;
+	 color: #999;
+ }
+
+
+/* PAGE LIST NAVIGATION */
+
+.list-nav {
+	font-size: 1.5em;
+	position: relative;
+	margin-top: -125px;
+	float: left;
+	width: 100%;
+}
+
+.list-nav .previous, .list-nav .next {
+	padding: 0;
+	position:  absolute;
+}
+
+.list-nav a{
+	background: #b11e2d;
+	color: #fff;
+	display: block;
+	padding: 1.75em .25em;
+	-webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+
+.list-nav a:hover {
+	background: #d12b41;
+}
+
+.list-nav .previous {
+	left: 0;
+}
+
+.list-nav .next {
+	right: 0;
+}
+
+
+
+a .hover-title {
+	display: none;
+transform:translateY(-1.75em);
+padding: 1em;
+font-size: .75em;
+
+}
+
+a:hover .hover-title {
+	display: block;
+}
+
+.previous .hover-title {
+	float: right;
+}
+
+.next .hover-title {
+	float: left;
+}
+
+
+.hover-title .card-title {
+	display: block;
+}
+
+
  
 /* PAGE TRANSITION EFFECT */
 body{
